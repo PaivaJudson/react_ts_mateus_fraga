@@ -11,7 +11,6 @@ export default function App() {
   const [input, setInput] = useState("");
   const [idade, setIdade] = useState("");
 
-
   const [infoAluno, setInfoAluno] = useState<InfoAlunoProps>();
 
   function mostrarAluno(){
